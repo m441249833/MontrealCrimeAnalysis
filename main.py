@@ -1,9 +1,3 @@
-#-------------------------------------------------------
-# Assignment 1
-# Written by Ke Ma 26701531
-# For COMP 472 Section JX – Summer 2020
-# --------------------------------------------------------
-
 #test case1: -73.59 45.49 to -73.55 45.49 threshold = 0.5
 #test case2: -73.59 45.49 to -73.55 45.53 threshold = 0.5
 #test case3: -73.568 45.508 to -73.55 45.53 threshold = 0.5 (Supposed no path)
