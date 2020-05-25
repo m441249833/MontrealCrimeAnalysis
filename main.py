@@ -72,6 +72,14 @@ elif threshold == 1.0:
 else:
     plt.hist2d(x_coordinates, y_coordinates, bins=[x1, y1], cmap=ListedColormap(['purple', 'yellow']), vmin=0,vmax=2 * high_num)
 
+#total number of crimes in each grid;
+print("Total crimes in each grid:");
+
+for i in range(len(grid_map)-1):
+    print(grid_map[i])
+
+
+
 #display statics
 print("Total number of crime:",sum(num_seq))
 print("Average:","{:.3f}".format(np.average(num_seq)))
