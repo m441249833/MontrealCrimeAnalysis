@@ -1,3 +1,10 @@
+Steps:
+    1. read all points from .shp file given
+    2. collecting all points and plot on grid using hist2d method from Matplotlib
+    3. running f(n) = g(n)+h(n) for scoring each node, and get the cheapest path.
+    4. using numpy library to do statical calculation.
+    5. plot the graph and display.
+    
 Libraries:
     Matplotlib.pyplot
     shapefile
@@ -15,9 +22,3 @@ User input:
     2.initial state
     3.goal state
 
-Steps:
-    1. read all points from .shp file given
-    2. collecting all points and plot on grid using hist2d method from Matplotlib
-    3. running f(n) = g(n)+h(n) for scoring each node, and get the cheapest path.
-    4. using numpy library to do statical calculation.
-    5. plot the graph and display.
